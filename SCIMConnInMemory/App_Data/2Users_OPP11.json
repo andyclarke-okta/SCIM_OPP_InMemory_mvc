@@ -1,0 +1,72 @@
+﻿{
+    "totalResults": 2,
+    "schemas": [
+        "urn:scim:schemas:core:1.0"
+    ],
+    "itemsPerPage": 10,
+    "startIndex": 1,
+    "Resources": [
+        {
+            "schemas": [
+                "urn:scim:schemas:core:1.0",
+                "urn:scim:schemas:extension:enterprise:1.0",
+                "urn:okta:aclarkehub_oppinmemory_1:1.0:user:custom"
+            ],
+            "id": "258641",
+            "userName": "kate.smith@oppmemory.org",
+            "active": true,
+            "name": {
+                "formatted": "Kate Smith",
+                "givenName": "Kate",
+                "familyName": "Smith"
+            },
+            "emails": [
+                {
+                    "value": "kate.smith@mailinator.com",
+                    "primary": true,
+                    "type": "work"
+                }
+            ],
+            "urn:okta:aclarkehub_oppinmemory_1:1.0:user:custom": {
+                "birth_date": "1961-05-23",
+                "gender": "F",
+                "hire_date": "1994-12-02",
+                "costCenter": "Engineering"
+            }
+        },
+      {
+        "schemas": [
+          "urn:scim:schemas:core:1.0",
+          "urn:scim:schemas:extension:enterprise:1.0",
+          "urn:okta:aclarkehub_oppinmemory_1:1.0:user:custom"
+        ],
+        "id": "258005",
+        "userName": "nina.jones@oppmemory.org",
+        "active": true,
+        "name": {
+          "formatted": "Nina Jones",
+          "givenName": "Nina",
+          "familyName": "Jones"
+        },
+        "emails": [
+          {
+            "value": "nina.jones@mailinator.com",
+            "primary": true,
+            "type": "work"
+          }
+        ],
+        "groups": [
+          {
+            "value": "d005",
+            "display": "Development"
+          }
+        ],
+        "urn:okta:aclarkehub_oppinmemory_1:1.0:user:custom": {
+          "birth_date": "1953-02-17",
+          "gender": "F",
+          "hire_date": "1991-01-21",
+          "costCenter": "Engineering"
+        }
+      }
+    ]
+}

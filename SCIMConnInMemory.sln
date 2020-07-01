@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OktaSCIMConn", "SCIMConnInMemory\OktaSCIMConn.csproj", "{F656B093-8022-4A4E-87F1-3A482462661D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.SCIM.Models", "Okta.SCIM.Models\Okta.SCIM.Models.csproj", "{812E1096-1BD8-4CA0-823E-CD9160B718C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F656B093-8022-4A4E-87F1-3A482462661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F656B093-8022-4A4E-87F1-3A482462661D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F656B093-8022-4A4E-87F1-3A482462661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F656B093-8022-4A4E-87F1-3A482462661D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812E1096-1BD8-4CA0-823E-CD9160B718C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812E1096-1BD8-4CA0-823E-CD9160B718C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812E1096-1BD8-4CA0-823E-CD9160B718C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812E1096-1BD8-4CA0-823E-CD9160B718C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

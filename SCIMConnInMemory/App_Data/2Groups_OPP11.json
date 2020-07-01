@@ -1,0 +1,38 @@
+{  
+   "totalResults":2,
+    "schemas": [
+        "urn:scim:schemas:core:1.0"
+    ],
+   "Resources":[  
+      {
+        "schemas": [
+            "urn:scim:schemas:core:1.0",
+            "urn:scim:schemas:extension:enterprise:1.0",
+            "urn:okta:aclarkehub_oppinmemory_1:1.0:user:custom"
+        ],
+         "id":"d009",
+         "displayName":"Customer Service",
+         "members":[
+          {
+            "value": "258005",
+            "display": "nina.jones@scimmemory.org"
+          }
+         ]
+      },
+      {
+        "schemas": [
+            "urn:scim:schemas:core:1.0",
+            "urn:scim:schemas:extension:enterprise:1.0",
+            "urn:okta:aclarkehub_oppinmemory_1:1.0:user:custom"
+        ],
+         "id":"d007",
+         "displayName":"Sales",
+         "members":[
+          {
+            "value": "258641",
+            "display": "kate.smith@scimmemory.org"
+          }
+         ]
+      }
+   ]
+}

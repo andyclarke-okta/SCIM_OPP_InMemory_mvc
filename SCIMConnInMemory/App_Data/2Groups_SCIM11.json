@@ -1,0 +1,42 @@
+{  
+   "totalResults":2,
+    "schemas": [
+        "urn:scim:schemas:core:1.0"
+    ],
+   "Resources":[  
+      {
+        "schemas": [
+            "urn:scim:schemas:core:1.0"
+        ],
+         "id":"d009",
+         "displayName":"Customer Service",
+         "members":[  
+            {  
+               "value":"10038",
+               "display":"LortzHuan@mysql-db.org"
+            },
+            {  
+               "value":"10049",
+               "display":"TramerBasil@mysql-db.org"
+            }
+         ]
+      },
+      {
+        "schemas": [
+            "urn:scim:schemas:core:1.0"
+        ],
+         "id":"d007",
+         "displayName":"Sales",
+         "members":[  
+            {  
+               "value":"10002",
+               "display":"SimmelBezalel@mysql-db.org"
+            },
+            {  
+               "value":"10016",
+               "display":"CappellettiKazuhito@mysql-db.org"
+            }
+         ]
+      }
+   ]
+}
